@@ -1,3 +1,4 @@
+
 .App{
   background: rgb(19, 36, 68);
   height: 100vh;
@@ -14,4 +15,12 @@
 }
 .logo{
   cursor: pointer;
+}
+.form{
+  margin-top: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

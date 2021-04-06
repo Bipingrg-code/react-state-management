@@ -6,11 +6,7 @@ function Nav() {
     return (
         <div className="nav-container">
             <h1 className="logo">Hello:React</h1>
-            {
-                movies.map(movie => {
-                    return `Price of List : ${movie.length}`
-                })
-            }
+            <p>List of Movies: {movies.length}</p>
         </div>
     )
 }
